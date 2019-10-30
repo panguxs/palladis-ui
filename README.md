@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Palladis UI
 
 ## Project setup
@@ -33,6 +32,3 @@ npm run lint
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
-=======
-# palladis-ui
->>>>>>> 5202ac75cf02504b74a964c03b22832fd4f82f3f
