@@ -1,4 +1,4 @@
-# palladis-ui
+# Palladis UI
 
 ## Project setup
 ```
