@@ -1,12 +1,24 @@
 <template>
-  <div class="hello"></div>
+  <div class="hello">
+    <a-button type="primary">Primary</a-button>
+    <p />
+    <a>test</a>
+  </div>
 </template>
 
 <script>
+import Vue from 'vue'
+import { Button, message } from 'ant-design-vue'
+// import 'ant-design-vue/dist/antd.css'
+Vue.use(Button)
+Vue.prototype.$message = message
 export default {
   name: 'HelloWorld',
   props: {
     msg: String
+  },
+  created() {
+    this.$message.info('hello')
   }
 }
 </script>
